@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+img {
+  display: block;
+}
+
+.gallery {
+  width: 1440px;
+  height: 696px;
+  padding: 24px 156px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-item {
+  width: 360px;
+  height: 200px;
+  background-size: cover;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+.gallery-item:hover {
+  transform: scale(1.044);
+  cursor: default;
+}
